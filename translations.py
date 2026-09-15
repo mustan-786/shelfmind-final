@@ -1,7 +1,7 @@
 TRANSLATIONS = {
     "en": {
         "app_title": "SHELF MIND",
-        "app_tagline": "Smart Kirana Inventory & AI Assistant",
+        "app_tagline": "The Smart Engine for Kirana Stores",
         "welcome_back": "Welcome back",
         "tab_scan": "📷 Scan Invoice",
         "tab_inventory": "📋 Inventory",
@@ -66,7 +66,7 @@ TRANSLATIONS = {
     },
     "mr": {
         "app_title": "शेल्फ माईंड",
-        "app_tagline": "स्मार्ट किराणा इन्व्हेंटरी आणि एआय सहाय्यक",
+        "app_tagline": "किराणा दुकानांसाठी स्मार्ट इंजिन",
         "welcome_back": "स्वागत आहे",
         "tab_scan": "📷 बिल स्कॅन करा",
         "tab_inventory": "📋 इन्व्हेंटरी (स्टॉक)",
@@ -131,7 +131,7 @@ TRANSLATIONS = {
     },
     "hi": {
         "app_title": "शेल्फ माइंड",
-        "app_tagline": "स्मार्ट किराना इन्वेंटरी व एआई सहायक",
+        "app_tagline": "किराना स्टोर के लिए स्मार्ट इंजन",
         "welcome_back": "स्वागत है",
         "tab_scan": "📷 बिल स्कैन करें",
         "tab_inventory": "📋 इन्वेंटरी (स्टॉक)",
