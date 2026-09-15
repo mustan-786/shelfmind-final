@@ -406,7 +406,7 @@ if not st.session_state.get("logged_in_store"):
         <div class="kotak-header" style="display: flex; justify-content: space-between; align-items: center;">
             <div>
                 <h1 style="margin: 0; font-size: 24px; font-weight: 800;">{t['app_title']}</h1>
-                <div class="kotak-header-sub">The Smart Engine for Kirana Stores</div>
+                <div class="kotak-header-sub">{t['app_tagline']}</div>
             </div>
             <div style="display: flex; align-items: center; justify-content: center;">
                 {logo_html}
