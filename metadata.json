@@ -1,0 +1,11 @@
+{
+  "name": "SHELF MIND — Kirana Store Console",
+  "description": "Smart inventory, wholesale invoice OCR, AI demand forecasting, udhar ledger, and shelf rack audit engine for Kirana stores.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

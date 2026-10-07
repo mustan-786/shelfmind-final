@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --sm-teal: #0F766E;
+  --sm-teal-dark: #0B4F49;
+  --sm-teal-light: #14B8A6;
+  --sm-amber: #D97706;
+  --sm-rose: #E11D48;
+  --sm-rose-dark: #9F1239;
+  --sm-emerald: #059669;
+
+  /* Default Dark Mode Theme Variables */
+  --bg-base: #0d1414;
+  --bg-surface: #121E1E;
+  --bg-surface-sub: #182B2B;
+  --border-theme: rgba(255, 255, 255, 0.10);
+  --text-base: #f1f5f9;
+  --text-heading: #ffffff;
+  --text-muted: #94a3b8;
+  --input-bg: #182B2B;
+  --input-border: rgba(255, 255, 255, 0.12);
+}
+
+body.light {
+  /* Light Mode Theme Variables */
+  --bg-base: #f6f8f7;
+  --bg-surface: #ffffff;
+  --bg-surface-sub: #f1f5f4;
+  --border-theme: rgba(15, 118, 110, 0.15);
+  --text-base: #1e293b;
+  --text-heading: #0f172a;
+  --text-muted: #64748b;
+  --input-bg: #ffffff;
+  --input-border: #cbd5e1;
+}
+
+body {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-base);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body.dark {
+  background: 
+    radial-gradient(ellipse 900px 500px at 10% -10%, rgba(15, 118, 110, 0.22), transparent 60%),
+    radial-gradient(ellipse 800px 500px at 100% 0%, rgba(217, 119, 6, 0.15), transparent 55%),
+    #0d1414;
+}
+
+body.light {
+  background: 
+    radial-gradient(ellipse 900px 500px at 10% -10%, rgba(15, 118, 110, 0.12), transparent 60%),
+    radial-gradient(ellipse 800px 500px at 100% 0%, rgba(217, 119, 6, 0.10), transparent 55%),
+    #f6f8f7;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Poppins', 'Manrope', sans-serif;
+}
+
+/* Theme helper utility classes */
+.card-theme {
+  background-color: var(--bg-surface);
+  border-color: var(--border-theme);
+  color: var(--text-base);
+}
+
+.subcard-theme {
+  background-color: var(--bg-surface-sub);
+  border-color: var(--border-theme);
+  color: var(--text-base);
+}
+
+.input-theme {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--text-heading);
+}
+
+.text-title-theme {
+  color: var(--text-heading);
+}
+
+.text-muted-theme {
+  color: var(--text-muted);
+}
