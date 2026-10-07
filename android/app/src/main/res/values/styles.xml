@@ -1,9 +1,0 @@
-<resources>
-    <style name="Theme.ShelfMind" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#0F766E</item>
-        <item name="colorPrimaryDark">#0B4F49</item>
-        <item name="colorAccent">#14B8A6</item>
-        <item name="android:statusBarColor">#0F766E</item>
-        <item name="android:navigationBarColor">#0B1515</item>
-    </style>
-</resources>
